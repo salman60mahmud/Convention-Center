@@ -95,6 +95,26 @@ body {
   justify-content: right;
 }
 
+/* scrollbar code */
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d1e5ff;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#642bff, #ff22e6);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#acac11, #1e6e0cb6);
+}
+
 
 @media (max-width:480px) {
 
