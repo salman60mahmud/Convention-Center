@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", serif;
+}
+
+.hero-section h1 {
+  text-shadow: 1px 1px 3px #130202, -1px -1px 3px #130202;
+}
+
+.hero-section p {
+  text-shadow: 1px 1px 2px #0c0202, 1px 1px 2px #080101;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-box {
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.1), -3px -3px 6px rgba(10, 10, 10, 0.1);
+  margin-top: 40px;
+
+}
+.card-box3 {
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 3px 4px 6px rgba(20, 20, 20, 0.1), -3px -3px 6px rgba(10, 10, 10, 0.1);
+  background-color: #3F87F5;
+  position: relative;
+}
+.card-box3 h3, .card-box3, card-box3 p, .card-box3 ul>li {
+  color: #ffffff;
+}
+
+.top {
+  top: -15px;
+  right: 10px;
+}
+
+.fourth-card {
+  border-radius: 7px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(10, 10, 10, 0.1);
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.fourth-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.client-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.client-career {
+  color: rgb(59, 55, 55);
+}
+
+.footer-section {
+  background-color: #0B0D17;
+  padding: 20px 0;
+}
+
+.footer-section .copyright {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-section .right-text {
+  text-align: right;
+}
+
+.footer-section .app-images img {
+  width: 150px;
+  margin-left: 10px;
+}
+
+.app-images {
+  display: flex;
+  justify-content: right;
+}
+
+
+@media (max-width:480px) {
+
+
+  .second-section {
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+}
