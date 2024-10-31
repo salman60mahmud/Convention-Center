@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Font link is here */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
   padding: 0;
@@ -7,8 +9,10 @@
 }
 
 body {
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
 }
+
+/* hero section  */
 
 .hero-section h1 {
   text-shadow: 1px 1px 3px #130202, -1px -1px 3px #130202;
@@ -18,11 +22,14 @@ body {
   text-shadow: 1px 1px 2px #0c0202, 1px 1px 2px #080101;
 }
 
+/* second section is here */
+
 .second-section {
   display: flex;
   flex-direction: row;
 }
 
+/* third section is here*/
 
 .card-box {
   border-radius: 5px;
@@ -46,11 +53,12 @@ body {
   color: #ffffff;
 }
 
-.top {
+.top-hot {
   top: -15px;
   right: 10px;
 }
 
+/* fourth section is here */
 .fourth-card {
   border-radius: 7px;
   padding: 20px;
@@ -61,20 +69,24 @@ body {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  object-fit: cover;
   margin-bottom: 10px;
+  object-fit: cover;
 }
 
+/* fifth section is here */
+
 .client-name {
-  font-weight: bold;
   margin-top: 10px;
+  font-weight: bold;
+
 }
 
 .client-career {
-  color: rgb(59, 55, 55);
+  color: rgb(46, 43, 43);
+  margin-top: -4px;
 }
 
-/* for  footer size */
+/* Footer is here */
 .footer-fixed {
 
   height: 250px;
