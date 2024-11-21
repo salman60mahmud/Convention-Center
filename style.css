@@ -15,11 +15,13 @@ body {
 /* hero section  */
 
 .hero-section h1 {
-  text-shadow: 1px 1px 3px #130202, -1px -1px 3px #130202;
+  text-shadow: 2px 2px 5px #130202, -2px -3px 5px #130202;
+  font-size: 50px;
 }
 
 .hero-section p {
-  text-shadow: 1px 1px 2px #0c0202, 1px 1px 2px #080101;
+  text-shadow: 2px 1px 2px #0c0202, -2px -1px 3px #080101;
+  font-size: 20px;
 }
 
 /* second section is here */
